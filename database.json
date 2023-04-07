@@ -1,0 +1,16 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": "localhost",
+    "database": "full_stack_dev",
+    "user": {"ENV": "POSTGRES_USER"},
+    "password": {"ENV": "POSTGRES_PASSWORD"}
+  },
+  "test": {
+    "driver": "pg",
+    "host": "localhost",
+    "database": "full_stack_test",
+    "user": "test_user",
+    "password": "password123"
+  }
+}
